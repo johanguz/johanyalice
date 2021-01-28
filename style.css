@@ -1,0 +1,99 @@
+/* classes to specify margin between items */
+
+.voffset  { margin-top: 2px; }
+.voffset1 { margin-top: 5px; }
+.voffset2 { margin-top: 10px; }
+.voffset3 { margin-top: 15px; }
+.voffset4 { margin-top: 30px; }
+.voffset5 { margin-top: 40px; }
+.voffset6 { margin-top: 60px; }
+.voffset7 { margin-top: 80px; }
+.voffset8 { margin-top: 100px; }
+.voffset9 { margin-top: 150px; }
+.voffset10 { margin-top: 300px; }
+.voffset11 { margin-top: 400px; }
+
+@font-face {
+    font-family: 'cylburn';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Cylburn Regular'), url('fonts/Cylburn.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'calibre';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre Regular'), url('fonts/calibre-regular.woff') format('woff');
+    }
+
+ @font-face {
+    font-family: 'baroqueScript';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baroque Script'), url('fonts/BaroqueScript.woff') format('woff');
+    }
+    
+.andSymbol {
+    font-family: baroqueScript;
+    font-size: 37px;
+}
+
+
+body, html {
+    height: 100%;
+}
+
+.title{
+    color: #eb8f68;
+    font-family: calibre;
+    line-height: 1.4;
+}
+
+.header{
+    color: #eb8f68;
+    font-family: calibre;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.script#names {
+    color: #eb8f68;
+    font-family: 'Cylburn';
+    font-size: 60pt;
+    line-height: 60pt;
+}
+
+.cover {
+    background-image: url("/img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.travelInfo {
+    margin-top: 0;
+    background-color: #eb8f68;
+}
+
+.travelInfoText {
+    font-family: calibre;
+    text-align: center;
+    line-height: 1.4;
+    color: #242a2a;
+}
+
+.travelInfoScript {
+    font-family: baroqueScript;
+    text-align: center;
+    color: #242a2a;
+    font-size: 2rem;
+}
+
+.largerInfo {
+    font-size: 1.2rem;
+}
+
+/*  */
+/* font color is #eb8f68 */
