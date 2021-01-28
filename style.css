@@ -36,7 +36,7 @@
     
 .andSymbol {
     font-family: baroqueScript;
-    font-size: 37px;
+    font-size: 2rem;
 }
 
 
@@ -57,11 +57,11 @@ body, html {
     text-align: center;
 }
 
-.script#names {
+.namesScript {
     color: #eb8f68;
     font-family: 'Cylburn';
-    font-size: 60pt;
-    line-height: 60pt;
+    font-size: 4.5rem;
+    line-height: 4rem;
 }
 
 .cover {
