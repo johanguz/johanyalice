@@ -95,5 +95,15 @@ body, html {
     font-size: 1.2rem;
 }
 
+.navbar {
+    background-color: transparent;
+  }
+
+
+.navbar-hide {
+    pointer-events: none;
+    opacity: 0;
+}
+
 /*  */
 /* font color is #eb8f68 */
