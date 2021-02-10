@@ -1,4 +1,5 @@
 const navBar = document.querySelector('.navbar');
+// const travelInfo = document.querySelector('.travelInfo')
 
 window.addEventListener("scroll", () => {
   if (pageYOffset != 0) {
@@ -8,6 +9,12 @@ window.addEventListener("scroll", () => {
   }
 })
 
+navBar.addEventListener("click", () => {
+  document.querySelector('.travelInfo').scrollIntoView({
+    behavior: 'smooth'
+  })
+
+})
 // if (window.pageYOffset === 0) {
 //   navBar.classList.remove('d-none');
 // }
