@@ -16,8 +16,8 @@
 @font-face {
     font-family: 'cylburn';
     font-style: normal;
-    font-weight: normal;
-    src: local('Cylburn Regular'), url('fonts/Cylburn.woff') format('woff');
+    font-weight: 200;
+    src: local('cylburn regular'), url('fonts/cylburn.woff') format('woff');
     }
 
 @font-face {
@@ -48,7 +48,17 @@ body, html {
 .title{
     color: #eb8f68;
     font-family: calibre;
-    line-height: 1.4;
+    font-size: .8rem;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+.titleBlack {
+    color: #242a2a;
+    font-family: calibre;
+    font-size: .8rem;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    text-align: center;
 }
 
 .header{
@@ -81,15 +91,17 @@ body, html {
 .travelInfoText {
     font-family: calibre;
     text-align: center;
-    line-height: 1.4;
+    font-size: .9rem;
+    line-height: 1.2;
     color: #242a2a;
 }
 
 .travelInfoScript {
-    font-family: baroqueScript;
+    font-family: cylburn;
     text-align: center;
     color: #242a2a;
-    font-size: 2rem;
+    font-size: 3rem;
+    letter-spacing: 1px;
 }
 
 .largerInfo {
