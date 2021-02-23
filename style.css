@@ -34,6 +34,11 @@
     src: local('Baroque Script'), url('fonts/BaroqueScript.woff') format('woff');
     }
     
+a {
+    color: black;
+    text-decoration: underline;
+}  
+  
 .andSymbol {
     font-family: baroqueScript;
     font-size: 2rem;
@@ -56,7 +61,7 @@ body, html {
     color: #242a2a;
     font-family: calibre;
     font-size: .8rem;
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: 1px;
     text-align: center;
 }
@@ -92,7 +97,7 @@ body, html {
     font-family: calibre;
     text-align: center;
     font-size: .9rem;
-    line-height: 1.2;
+    line-height: 1.5;
     color: #242a2a;
 }
 
@@ -102,6 +107,7 @@ body, html {
     color: #242a2a;
     font-size: 3rem;
     letter-spacing: 1px;
+    line-height: 1;
 }
 
 .largerInfo {
