@@ -51,7 +51,7 @@ body, html {
 }
 
 .title{
-    color: #eb8f68;
+    color: #eba18d;
     font-family: calibre;
     font-size: .8rem;
     line-height: 1.2;
@@ -67,14 +67,14 @@ body, html {
 }
 
 .header{
-    color: #eb8f68;
+    color: #eba18d;
     font-family: calibre;
     line-height: 1.4;
     text-align: center;
 }
 
 .namesScript {
-    color: #eb8f68;
+    color: #eba18d;
     font-family: 'Cylburn';
     font-size: 4.5rem;
     line-height: 4rem;
@@ -90,7 +90,7 @@ body, html {
 
 .travelInfo {
     margin-top: 0;
-    background-color: #eb8f68;
+    background-color: #eba18d;
 }
 
 .travelInfoText {
@@ -125,4 +125,4 @@ body, html {
 }
 
 /*  */
-/* font color is #eb8f68 */
+/* font color is #eba18d */
