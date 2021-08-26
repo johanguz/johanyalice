@@ -125,6 +125,15 @@ body, html {
     line-height: 1;
 }
 
+.travelInfoScriptRSVP {
+    font-family: Burgues Script;
+    text-align: center;
+    color: #242a2a;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    line-height: 1;
+}
+
 .largerInfo {
     font-size: 1.2rem;
 }
