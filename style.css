@@ -14,6 +14,13 @@
 .voffset11 { margin-top: 400px; }
 
 @font-face {
+    font-family: 'Burgues Script';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Burgues Script'), url('fonts/4d436237636cf4843a2b3af336b8f9dd.woff') format('woff');
+    }
+
+@font-face {
     font-family: 'cylburn';
     font-style: normal;
     font-weight: 200;
@@ -33,6 +40,7 @@
     font-weight: normal;
     src: local('Baroque Script'), url('fonts/BaroqueScript.woff') format('woff');
     }
+
     
 a {
     color: black;
@@ -52,14 +60,14 @@ body, html {
 
 .title{
     color: #efa283;
-    font-family: calibre;
+    font-family: 'Baskervville', serif;
     font-size: .8rem;
     line-height: 1.2;
     letter-spacing: 1px;
 }
 .titleBlack {
     color: #242a2a;
-    font-family: calibre;
+    font-family: 'Baskervville', serif;
     font-size: .8rem;
     line-height: 1.5;
     letter-spacing: 1px;
@@ -68,7 +76,7 @@ body, html {
 
 .header{
     color: #efa283;
-    font-family: calibre;
+    font-family: 'Baskervville', serif;
     line-height: 1.4;
     text-align: center;
 }
@@ -94,7 +102,14 @@ body, html {
 }
 
 .travelInfoText {
-    font-family: calibre;
+    font-family: 'Baskervville', serif;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #242a2a;
+}
+.travelInfoTextItalic {
+    font-family: 'Libre Baskerville', serif;
     text-align: center;
     font-size: .9rem;
     line-height: 1.5;
@@ -102,7 +117,7 @@ body, html {
 }
 
 .travelInfoScript {
-    font-family: cylburn;
+    font-family: Burgues Script;
     text-align: center;
     color: #242a2a;
     font-size: 3rem;

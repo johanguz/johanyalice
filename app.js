@@ -1,4 +1,4 @@
-const navBar = document.querySelector('.navbar');
+const navBar = document.querySelector('.bottomarrow');
 // const travelInfo = document.querySelector('.travelInfo')
 
 window.addEventListener("scroll", () => {
